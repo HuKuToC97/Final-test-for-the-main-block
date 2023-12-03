@@ -2,7 +2,7 @@
 
 public class WorkWithString
 {
-    public static string[] CreateArrayString(string messageAboutArraySizeRequest = "Введите количество элементов массива строк: ")
+    public static string[] CreateArrayString(string messageAboutArraySizeRequest = "Введите количество элементов массива строк (целое положительное число): ")
     {
         System.Console.Write(messageAboutArraySizeRequest);
         int arraySize = Convert.ToInt32(System.Console.ReadLine());
